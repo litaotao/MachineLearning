@@ -1,0 +1,80 @@
+/*
+Placeholder for custom user CSS
+
+mainly to be overridden in profile/static/custom/custom.css
+
+This will always be an empty file in IPython
+*/
+
+
+/*
+.CodeMirror pre {font-size: 20px;font-weight: bold; line-height:120%;}
+*/
+code {
+    color: #c7254e;
+}
+
+.container {
+    width: auto;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#header-container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#tab_content {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: grey;
+}
+
+#myBar {
+  width: 10%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: left;
+  line-height: 30px;
+  color: white;
+}
+
+
+.barbar {
+  width: 10%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: left;
+  line-height: 30px;
+  color: white;
+}
+
+/*展示 dataframe table 的时候，cell 内部不自动换行*/
+.dataframe td {
+    white-space: nowrap;
+}
+
+/*print pre-view, 100 width*/
+#notebook-container {
+    width: 100%;
+}
+
+/*charts 包 画图的时候不显示 setting 栏*/
+.selectize-control {
+    display: none;
+}
+.btn.btn-default.pull-right {
+    display: none;
+}

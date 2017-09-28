@@ -1,0 +1,5 @@
+{
+  "load_extensions": {
+    "IPython-notebook-extensions-3.x/usability/runtools/main": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "secure": false, 
+  "url": "http://localhost:9999/", 
+  "hostname": "localhost", 
+  "pid": 8990, 
+  "base_url": "/", 
+  "notebook_dir": "/Users/chenshan/google_driver/github/quartz/notebooks", 
+  "port": 9999
+}
