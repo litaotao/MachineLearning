@@ -9,7 +9,7 @@ c = get_config()
 # NotebookApp will inherit config from: BaseIPythonApplication, Application
 
 # The url for MathJax.js.
-c.NotebookApp.mathjax_url = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'
+# c.NotebookApp.mathjax_url = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'
 # c.NotebookApp.mathjax_url = '/Users/taotao/Downloads/MathJax.js'
 
 # Supply extra arguments that will be passed to Jinja environment.
